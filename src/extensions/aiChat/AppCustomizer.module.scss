@@ -1,0 +1,55 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.app {
+  position: relative;
+  .top {
+    height: 60px;
+    text-align: center;
+    line-height: 2.5;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+  }
+
+  .bottom {
+    width: auto;
+    // height: 75px;
+    // // border: 1px solid #ea881a;
+    // // background-color: #ea881a;
+    // // border-radius: 50%;
+    // padding: 5px 8px;
+    // color: #fff;
+  }
+
+  .btn {
+    position: fixed;
+    bottom: 80px;
+    right: 75px;
+    background-color: #ea881a;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    cursor: pointer;
+    border: 2px solid #ea881a;
+  }
+
+  .popoverContent {
+    bottom: 130px;
+    position: absolute;
+    right: 75px;
+    z-index: 9;
+  }
+  .frame {
+    width: 435px;
+    height: 690px;
+    background: white;
+    box-shadow: 3px 4px 16.799999237060547px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #eeeeee;
+  }
+}

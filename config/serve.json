@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://quadra1.sharepoint.com/sites/HomeSite",
+      "customActions": {
+        "fb880787-0a07-4d5f-8939-f89911c17bf9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "aiChat": {
+      "pageUrl": "https://quadra1.sharepoint.com/sites/HomeSite",
+      "customActions": {
+        "fb880787-0a07-4d5f-8939-f89911c17bf9": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

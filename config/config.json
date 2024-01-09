@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ai-chat-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/aiChat/AiChatApplicationCustomizer.js",
+          "manifest": "./src/extensions/aiChat/AiChatApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AiChatApplicationCustomizerStrings": "lib/extensions/aiChat/loc/{locale}.js"
+  }
+}

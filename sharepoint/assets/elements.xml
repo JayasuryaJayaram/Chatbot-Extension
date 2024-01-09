@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AiChat"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="fb880787-0a07-4d5f-8939-f89911c17bf9"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
