@@ -50,10 +50,9 @@ export default class ChatbotApplicationCustomizer extends BaseApplicationCustomi
             <div id="popoverContent" class="${
               styles.popoverContent
             }" style="display: none;">               
-                <iframe src="
-                https://copilotstudio.microsoft.com/environments/Default-bf3faf5c-ce85-47df-8039-6d0b3b8c4cb5/bots/cr109_sharePointBot/webchat?__version__=2" class="${
-                  styles.frame
-                }" frameborder="0"></iframe>
+            <iframe src="
+https://copilotstudio.microsoft.com/environments/Default-7d329492-602b-4902-8434-ce53aa47b425/bots/cr33a_copilotSp/webchat?__version__=2"
+frameborder="0" style="width: 120%; height: 500px;"></iframe>
             </div>
         </div>
     </div>`;
