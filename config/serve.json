@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://quadra1.sharepoint.com/sites/HomeSite",
+      "pageUrl": "https://m365x99637848.sharepoint.com/sites/droneproducttraining",
       "customActions": {
         "fb880787-0a07-4d5f-8939-f89911c17bf9": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -15,7 +15,7 @@
       }
     },
     "aiChat": {
-      "pageUrl": "https://quadra1.sharepoint.com/sites/HomeSite",
+      "pageUrl": "https://m365x99637848.sharepoint.com/sites/droneproducttraining",
       "customActions": {
         "fb880787-0a07-4d5f-8939-f89911c17bf9": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -27,3 +27,4 @@
     }
   }
 }
+//https://quadra1.sharepoint.com/sites/HomeSite

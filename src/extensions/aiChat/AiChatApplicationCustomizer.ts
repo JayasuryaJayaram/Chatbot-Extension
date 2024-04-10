@@ -4,9 +4,6 @@ import {
   PlaceholderName,
 } from "@microsoft/sp-application-base";
 import styles from "./AppCustomizer.module.scss";
-// import * as strings from "ChatbotApplicationCustomizerStrings";
-
-// const LOG_SOURCE: string = "ChatbotApplicationCustomizer";
 
 export interface IChatbotApplicationCustomizerProperties {
   footer: string;
@@ -45,14 +42,13 @@ export default class ChatbotApplicationCustomizer extends BaseApplicationCustomi
     <div class="${styles.app}">
         <div class="${styles.bottom}">
             <button id="popoverButton" class="${styles.btn}">
-                <img src=${require("./OnlineSupport.png")} alt="Chatbot logo">
+                <img src=${require("./OnlineSupport.png")} alt="Chatbot logo" style='width: 85%;'>
             </button>
             <div id="popoverContent" class="${
               styles.popoverContent
             }" style="display: none;">               
-            <iframe src="
-https://copilotstudio.microsoft.com/environments/Default-7d329492-602b-4902-8434-ce53aa47b425/bots/cr33a_copilotSp/webchat?__version__=2"
-frameborder="0" style="width: 120%; height: 500px;"></iframe>
+            <iframe src="https://copilotstudio.microsoft.com/environments/Default-7d329492-602b-4902-8434-ce53aa47b425/bots/cr33a_copilotSp/webchat?__version__=2"
+            frameborder="0" style="width: 350px; height: 500px; border-radius: 10px;" ></iframe>
             </div>
         </div>
     </div>`;
